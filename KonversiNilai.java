@@ -69,7 +69,7 @@ public class KonversiNilai {
             System.out.println("Grade nilai siswa : " + peringkat);
         } else if (nilai < 45) {
             peringkat = "E";
-            System.out.println("Grade nilai siswa : " + peringkat);
+            System.out.println("Grade nilai siswa = " + peringkat);
         } else {
             System.out.println("Inputan anda tidak sesuai !");
         }

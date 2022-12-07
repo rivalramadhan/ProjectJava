@@ -21,7 +21,7 @@ public class BahasaMalangan {
         
         char[] validasi = masukan.toCharArray();
         
-//        untuk validasi kata
+        
         for (int i = validasi.length - 1; i >= 0; i--){
             if (validasi[i] == ' '){
                 System.out.println("Anda memasukkan kalimat bukan kata !!!");

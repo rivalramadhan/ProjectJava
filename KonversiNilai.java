@@ -40,19 +40,19 @@ public class KonversiNilai {
             matkul = inputan.nextLine();
             System.out.print("Masukkan Nilai mahasiswa : ");
             nilai = inputan.nextInt();
-          if (nilai >= 85) {
+          if (nilai >= 85 && nilai<=100) {
             peringkat = "A";
             System.out.println("Grade nilai siswa : " + peringkat);
-        } else if (nilai >= 80) {
+        } else if (nilai >= 80 && nilai<=84) {
             peringkat = "A-";
             System.out.println("Grade nilai siswa : " + peringkat);
-        } else if (nilai >= 75) {
+        } else if (nilai >= 75 && nilai<=79) {
             peringkat = "B+";
             System.out.println("Grade nilai siswa : " + peringkat);
-        } else if (nilai >= 70) {
+        } else if (nilai >= 70 && nilai<=74) {
             peringkat = "B";
             System.out.println("Grade nilai siswa : " + peringkat);
-        } else if (nilai >= 65) {
+        } else if (nilai >= 65 && nilai<=69) {
             peringkat = "B-";
             System.out.println("Grade nilai siswa : " + peringkat);
         } else if (nilai >= 60) {

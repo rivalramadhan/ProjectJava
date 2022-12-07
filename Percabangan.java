@@ -27,5 +27,6 @@ public class Percabangan {
         String hasil =  angka%2==0 ? "bilangan genap" + "Hallo angka" +
                 angka: "Bilangan genap";
         System.out.println("Maka :" +hasil);
+        
     }
 }
